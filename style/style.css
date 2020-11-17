@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #a5a7a9;
+}
+
+.content {
+    height: 100vh;
+    position: relative;
+}
+
+.userCard{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnwZaTnb8h6Oem-3MK8IzKn_sMCPdHpv9oVQ&usqp=CAU");
+    background-size: cover;
+    position: relative;
+    top: 20%;
+    left: 43%;
+    border: 1px solid #282c34;
+    padding: 10px 0;
+    min-width: 50px;
+    max-width: 350px;
+}
+
+.userImage {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-image: url(../images/usrphoto.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.userName{
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.infoCity>p{
+    font-size: 13px;
+    text-align: end;
+    padding-right: 11px;
+}
+
+p{
+    color: #b1b1b1;
+}
+
+.info{
+    margin-left: 10px;
+}
+
+h5{
+    font-size: 20px;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+}
